@@ -1,4 +1,13 @@
 body {
     margin: 0;
-    font-family: "Tahoma", sans-serif;
+    font-family: "Manrope", sans-serif;
+    color: #18191f;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
 }
