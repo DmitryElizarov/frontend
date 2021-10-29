@@ -1,13 +1,174 @@
-body {
-    margin: 0;
-    font-family: "Manrope", sans-serif;
-    color: #18191f;
+* {
+  box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
+body {
+ font-family: "Manrope", sans-serif;
+ color: #18191f;
+ margin: 0;
+}
+
+h1,h2,h3,h4,p {
   margin: 0;
+}
+
+.conteiner {
+  width: 920px;
+  height: 696px;
+  background-color: #D5FAFC;
+  margin: 0 auto;
+}
+
+.box-left-top {
+  width: 445px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.description {
+  width: 445px;
+}
+
+.description h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+.description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 8px;
+}
+
+.hubspot {
+  width: 350px;
+  height: 436px;
+  background-color: #FFFFFF;
+  margin-left: 95px;
+  margin-top: 24px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+.hubspot img {
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.hub-text {
+  width: 254px;
+  margin: 32px 32px 32px 64px;
+}
+
+.hub-text p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+.hub-text h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+.hub-text span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #969BAB;
+}
+
+.box-right-top {
+  width: 445px;
+  margin-left:-4px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 30px;
+}
+
+.airbnb {
+  width: 445px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 48px;
+}
+.airbnb img {
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.text-airbnb {
+  width: 349px;
+  margin: 32px 32px 32px 64px;
+}
+
+.text-airbnb p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+} 
+
+.text-airbnb h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+.text-airbnb span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #969BAB;
+}
+
+.bookmyshow {
+  width: 350px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display:inline-block;
+  margin-top: 32px;
+}
+
+.bookmyshow img {
+  margin-left: 32px;
+  margin-top: 32px;
+}
+
+.text-bookmyshow {
+  width: 254px;
+  margin: 32px 32px 32px 64px;
+}
+
+.text-bookmyshow p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.text-bookmyshow h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+.text-bookmyshow span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color:#969BAB;
 }
